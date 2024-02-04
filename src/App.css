@@ -223,3 +223,24 @@
   width: 500px;
   height: 300px;
 }
+
+/* design */
+
+.design-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.design-inner-container {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.design-inner-container img {
+  width: 290px;
+  margin: 0 0.5em 0.5em 0;
+}

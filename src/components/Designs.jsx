@@ -1,63 +1,22 @@
 import React from 'react';
-import work1 from '../assets/work1.png';
-import work2 from '../assets/work2.png';
-import work3 from '../assets/work3.png';
-import viewProductIcon from '../assets/view_product_icon.svg';
+import design1 from '../assets/design1.png';
+import design2 from '../assets/design2.png';
+import design3 from '../assets/design3.png';
+import design4 from '../assets/design4.png';
+import design5 from '../assets/design5.png';
+import design6 from '../assets/design6.png';
 
 export default function Designs() {
   return (
-    <div className='work-container'>
-      <div className='work-heading'>Work</div>
-
-      <div className='work-card-container'>
-        <div className='work-card-header-container'>
-          <div>
-            <div className='work-card-title'>Product</div>
-            <div className='work-card-title'>Photography App</div>
-            <div className='work-card-caption'>App Design</div>
-          </div>
-          <div className='work-card-view-button'>
-            <span>View Project</span>
-            <img src={viewProductIcon} alt="view product" />
-          </div>
-        </div>
-        <div className='work-card-img-container'>
-          <img src={work1} alt="work 1" />
-        </div>
-      </div>
-
-      <div className='work-card-container'>
-        <div className='work-card-img-container'>
-          <img src={work2} alt="work 1" />
-        </div>
-        <div style={{ paddingLeft: "1em" }} className='work-card-header-container'>
-          <div>
-            <div className='work-card-title'>Product</div>
-            <div className='work-card-title'>Photography App</div>
-            <div className='work-card-caption'>App Design</div>
-          </div>
-          <div className='work-card-view-button'>
-            <span>View Project</span>
-            <img src={viewProductIcon} alt="view product" />
-          </div>
-        </div>
-      </div>
-
-      <div className='work-card-container'>
-        <div className='work-card-header-container'>
-          <div>
-            <div className='work-card-title'>Product</div>
-            <div className='work-card-title'>Photography App</div>
-            <div className='work-card-caption'>App Design</div>
-          </div>
-          <div className='work-card-view-button'>
-            <span>View Project</span>
-            <img src={viewProductIcon} alt="view product" />
-          </div>
-        </div>
-        <div className='work-card-img-container'>
-          <img src={work3} alt="work 1" />
-        </div>
+    <div className='design-container'>
+      <div className='work-heading'>Designs</div>
+      <div className='design-inner-container'>
+        <div><img src={design1} alt="design 1" /></div>
+        <div><img src={design2} alt="design 1" /></div>
+        <div><img src={design3} alt="design 1" /></div>
+        <div><img src={design4} alt="design 1" /></div>
+        <div><img src={design5} alt="design 1" /></div>
+        <div><img src={design6} alt="design 1" /></div>
       </div>
     </div>
   )
