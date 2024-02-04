@@ -1,6 +1,6 @@
 .app {
   background: #0b1215;
-  height: 250vh;
+  height: 100%;
 }
 
 /* header */
@@ -154,4 +154,72 @@
   100% {
     transform: translateX(100%);
   }
+}
+
+/* work */
+
+.work-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-heading {
+  font-family: Monument Extended;
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff3c9;
+  margin-bottom: 20px;
+}
+
+.work-card-container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #ffffff;
+  width: 900px;
+  height: 330px;
+  padding: 1em;
+  margin-bottom: 35px;
+}
+
+.work-card-header-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.work-card-title {
+  font-family: Monument Extended;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.work-card-caption {
+  font-family: Monument Extended;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #798083;
+}
+
+.work-card-view-button {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  justify-content: space-between;
+  border: 1px solid #0b1215;
+}
+
+.work-card-img-container img {
+  width: 500px;
+  height: 300px;
 }
